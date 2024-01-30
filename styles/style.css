@@ -1,8 +1,152 @@
-/*
-Colors:
+html, body {
+    background-color: #FFF;
+
+  color: #1A1A1A;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+
+}
+
+/*!  Colors:
 
 Text: 1A1A1A
 Green: #00B172
-White: #FFF
+White: #FFF 
 
 */
+
+h1{
+    font-size: 4em;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+
+}
+.flex-container{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.logo img{
+    width: 125px;
+}
+
+.flex-container li{
+    margin-right: 10px;
+}
+
+.flex-container a{
+    text-decoration: none;
+}
+
+.bg-landing{
+    max-width: 100%;
+}
+
+.background-text{
+    position: relative;
+    display: inline-block;
+}
+
+.overlay-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #FFF;
+    transform: translate(-50%, -50%); 
+    text-align: center;
+    
+
+}
+
+.overlay-text p{
+    font-size: 1.5em;
+    font-weight: lighter;
+margin: 0;
+
+}
+
+/** Section 2 */
+
+.h2-landing{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-decoration: underline #00B172 4px ; 
+}
+
+.content-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0 2em;
+    grid-template-areas: "mil-songs hdMusic streamEv";
+    justify-items: center;
+    align-items: center;
+}
+
+.content-2 .logo{
+    display: grid;
+    justify-items: center;
+}
+
+.content-2 h3{
+text-align: center;
+color: #00B172;
+font-size: 1.5em;
+}
+
+.content-2 p{
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.content-3{
+    background-color: #00B172;
+    color: #FFF;
+    margin: 0 1em;
+
+}
+
+.content-3 h3{
+    padding-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 2em;
+    font-size: 1.5em;
+}
+
+.content-3 h4{
+    padding-left: 2em;
+    font-size: 1.4em;
+}
+
+.content-3 p{
+    padding-left: 2em;
+    font-size: 1.2em;
+}
+
+.content-3 .logo{
+    display: absolute;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    color: #FFF;
+    transform: translate(-50%, -50%); 
+    text-align: center;
+    width: 125px;
+
+}
+
